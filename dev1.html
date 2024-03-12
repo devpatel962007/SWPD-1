@@ -1,49 +1,56 @@
-<html>
-    <body>
-        <h2> an ordered list</h2>
-        <ol type="1">
-         <li>yug</li>
-         <li>dev</li>
-         <li>ayush</li>
-        
-         <ol type="A">
-            <li>yug</li>
-            <li>dev</li>
-            <li>ayush</li>
+<form>
+    </form>
+<fieldset>
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="name" required><br><br>
 
-         <ol type="a"
-         <li>yug</li>
-         <li>dev</li>
-         <li>ayush</li> 
+    <label for="middlename">Middle Name:</label>
+    <input type="text" id="middlename" name="name" required><br><br>
 
-         <ol type="I"
-         <li>yug</li>
-         <li>dev</li>
-         <li>ayush</li> 
-         
-         <ol type="i"
-         <li>yug</li>
-         <li>dev</li>
-         <li>ayush</li> 
-         
-         <ul type="disc"
-         <li>yug</li>
-         <li>dev</li>
-         <li>ayush</li>
-         
-         <ul type="circle"
-         <li>yug</li>
-         <li>dev</li>
-         <li>ayush</li>
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="name" required><br><br>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+    
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required></textarea><br><br>
+    
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+<fieldset>
 
-         <ul type="square"
-         <li>yug</li>
-         <li>dev</li>
-         <li>ayush</li>
+    <label for="educationallevel">Educational Level:</label>
+    <select id="educationallevel" name="educationallevel">
+        <option value="diploma">diploma</option>
+        <option value="degree">degree</option>
+        <option value="master">Master</option>
+        <option value="PHD">PHD</option>
+    </select><br><br>
 
-         <ul type="none"
-         <li>yug</li>
-         <li>dev</li>
-         <li>ayush</li>
-</body>
-</html>   
+    <label for="formofidentification">Form Of Identification:</label>
+    <select id="formofidentification" name="formofidentification">
+        <option value="aadharcard">aadharcard</option>
+        <option value="passport">passport</option>
+        <option value="drivinglicense">drivinglicense</option>
+        <option value="voteridcard">Voter ID card</option>
+    </select><br><br>
+    
+    <label for="accountType">Account Type:</label>
+    <select id="accountType" name="accountType">
+        <option value="savings">Savings</option>
+        <option value="current">Current</option>
+        <option value="fixeddepositaccount">Fixed Deposit Account</option>
+        <option value="salaryaccount">Salary Account</option>
+
+
+    </select><br><br>
+
+    <label for="monthlyincome">Monthly Income:</label>
+    <input type="monthlyincome" id="monthlyincome" name="monthlyincone" required><br><br>
+
+    <input type="submit" value="Submit">
+</form>
